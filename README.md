@@ -2,7 +2,7 @@
 Self consistent calculations.
 
 Input file : scf.in
-<\br>
+<br>
 output file : scf.out
 
 
