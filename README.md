@@ -7,9 +7,9 @@ Step 2: Use the optimized coordinates to visualize the structure using VESTA, BU
 Step 3: In BURAI, Select the option Modeler, and enter miller index (hkl) values along which you want the STM imaging and enter build. 
 <br>
 Step 4: Adding amount of vaccum (since it's important to have vaccum present for post production of .cube file using Critic2 package)
-# Not specifing vaccum will lead to a error during the image generation that : "Vaccum not detected" by critic2.
-Input file : scf.in
 <br>
-output file : scf.out
+*Not specifing vaccum will lead to a error during the image generation that : "Vaccum not detected" by critic2.*
+
+
 
 
