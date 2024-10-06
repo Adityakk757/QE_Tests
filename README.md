@@ -1,5 +1,4 @@
 # Finding STM imaging of a compound along a plane.
-Self consistent calculations.
 <br>
 Step 1 : Optimize a structre pw.x relax.in > relax.out
 <br>
