@@ -1,4 +1,4 @@
-# QE_SCF
+# Finding STM imaging of a compound along a plane.
 Self consistent calculations.
 
 Input file : scf.in
