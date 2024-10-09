@@ -1,0 +1,74 @@
+&CONTROL
+    calculation   = 'scf'
+    pseudo_dir   = './'
+    prefix       = 'pwscf'
+    outdir       = './'
+    restart_mode = 'from_scratch'
+/
+
+
+&SYSTEM
+    a                         =  7.64600e+00
+    b                         =  5.49200e+00
+    c                         =  1.41144e+01
+    degauss                   =  1.00000e-02
+    ecutrho                   =  2.10000e+03
+    ecutwfc                   =  2.10000e+02
+    hubbard_u(1)              =  4.00000e+00
+    hubbard_J0(1)             =  0.20000e+00 
+    hubbard_u(2)              =  4.00000e+00
+    hubbard_J0(2)             =  0.30000e+00
+    ibrav                     = 8
+    lda_plus_u                = .TRUE.
+    lda_plus_u_kind           = 0
+    nat                       = 20
+    nosym                     = .FALSE.
+    nspin                     = 2
+    ntyp                      = 5
+    occupations               = "smearing"
+    smearing                  = "gaussian"
+    starting_magnetization(1) =  1.00000e-01
+    starting_magnetization(2) =  1.00000e-01
+/
+
+&ELECTRONS
+    conv_thr         =  1.00000e-07
+    electron_maxstep = 200
+    mixing_beta      =  4.00000e-01
+    startingpot      = "atomic"
+    startingwfc      = "atomic+random"
+/
+
+K_POINTS {automatic}
+ 4  4  4  0 0 0
+
+ATOMIC_SPECIES
+B   xxx   B.upf
+B'  xxx   B'.upf
+A   xxx   A.upf
+A'  xxx   A'.upf
+C   xxx   C.upf
+
+ATOMIC_POSITIONS {crystal}
+B      0.004160   0.500306   0.548124
+B      0.003673   0.999727   0.353216  0 0 0
+B'     0.495601   0.499539   0.547958
+B'     0.496243   0.999548   0.352866  0 0 0
+A      0.747531   0.992777   0.559724
+A      0.748429   0.504934   0.365660  0 0 0
+A      0.251683   0.493122   0.340381  0 0 0
+A'     0.250613   0.011849   0.532417
+C      0.540267   0.712711   0.659620
+C      0.959599   0.720564   0.657147
+C      0.043996   0.220302   0.633433
+C      0.455916   0.210637   0.630277
+C      0.246743   0.590067   0.555784
+C      0.753177   0.424179   0.544691
+C      0.544382   0.780993   0.462787  0 0 0
+C      0.956178   0.773316   0.460896  0 0 0
+C      0.037759   0.281471   0.438856  0 0 0
+C      0.464002   0.289729   0.435016  0 0 0
+C      0.246645   0.921958   0.365636  0 0 0
+C      0.753402   0.072270   0.347218  0 0 0
+
+
