@@ -1,0 +1,25 @@
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min        2088     834    220               541642   137024   18546
+     Max        2089     835    221               541647   137031   18551
+     Sum       25065   10011   2645              6499733  1644329  222579
+ 
+
+     Calling punch_plot, plot_num =   5
+     Use the true wfcs
+     Sample bias          =******** eV
+     STM          :    472.43s CPU    777.64s WALL (       1 calls)
+     Writing data to file  tmp.pp
+     Reading data from file  tmp.pp
+
+     Writing data to be plotted to file stm.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+ 
+     POST-PROC    :   9m 4.10s CPU  14m25.62s WALL
+
+ 
+   This run was terminated on:  10:55:17   3Oct2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
