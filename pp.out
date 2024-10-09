@@ -1,3 +1,4 @@
+# tail -25 pp.out
      --------------------
      sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
      Min        2088     834    220               541642   137024   18546
