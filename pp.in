@@ -1,0 +1,12 @@
+&inputpp
+	prefix = "pwscf"
+	outdir = "./"
+	plot_num = 5
+	sample_bias=-10.000
+/
+
+&plot
+	iflag=3
+	output_format=6
+	fileout="stm.cube"
+/
