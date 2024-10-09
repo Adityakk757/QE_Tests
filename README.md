@@ -1,6 +1,6 @@
 # Finding STM imaging of a compound along a plane.
 <br>
-Step 1 : Optimize a structre pw.x relax.in > relax.out
+Step 1 : Optimize a structre 'pw.x relax.in > relax.out'
 <br>
 <br>
 Step 2: Use the optimized coordinates to visualize the structure using VESTA, BURAI, or XCrySDen.
